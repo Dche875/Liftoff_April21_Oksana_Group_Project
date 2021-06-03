@@ -10,7 +10,7 @@
     margin: 1em;
 }
 
-#results-list {
+#git aresults-list {
     overflow-y: scroll;
     height: 95%;
     background-color: #091E05;
@@ -20,6 +20,14 @@
 .trail-result-block {
     background-color: rgba(255,255,255,0.2);
     border-radius: 1.5em;
+}
+
+.trail-result-name {
+    cursor: pointer
+}
+
+.trail-result-name:hover {
+    text-decoration: underline;
 }
 
 .trail-result-name {

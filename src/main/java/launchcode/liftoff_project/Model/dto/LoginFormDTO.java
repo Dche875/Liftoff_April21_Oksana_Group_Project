@@ -1,6 +1,7 @@
 package launchcode.liftoff_project.Model.dto;
 
 import com.sun.istack.NotNull;
+import org.springframework.boot.web.servlet.server.Session;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
@@ -14,6 +15,7 @@ public class LoginFormDTO {
 
     @NotNull
     private String email;
+
 
     public String getPassword() {
         return password;
@@ -32,4 +34,3 @@ public class LoginFormDTO {
         this.email = email;
     }
 }
-
